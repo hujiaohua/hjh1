@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>一次就好</title>
+	<script src='http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js'></script>
+	<style>
+	body{margin:0;padding:0;}
+	.v{
+		width:100%;
+		height: 100%;
+		/*opacity:0.5;*/
+	}
+	#main{
+		position: absolute;
+		top: 150px;
+		left:30px;
+		}
+	.main{
+		/*background: red;*/
+		user-select: none;
+		color:white;
+		width: 0px;
+		overflow: hidden;
+		white-space:nowrap; 
+	}
+	</style>
+</head>
+<body>
+	<div>
+	<video class='v' src="video/1.mp4" autoplay loop></video>
+	<div id="main">
+	<p class='main'>曾经有一个真诚的问题放在我面前</p>
+	<p class='main'>我没有回答</p>
+	<p class='main'>等我想要回答的时候</p>
+	<p class='main'>你已经有了男朋友</p>
+	<p class='main'>人世间最痛苦的事莫过于此</p>
+	<p class='main'>你的话在我的心里已形成回忆</p>
+	<p class='main'>如果上天能给我一次再来回答的机会</p>
+	<p class='main'>我会对你说四个字</p>
+	<p class='main'>我喜欢你</p>
+	<p class='main'>如果要在这份喜欢上加个期限</p>
+	<p class='main'>我希望是一万年</p>
+	<p class='xian1'></p>
+	<p class='xian2'></p>
+	</div>
+	</div>
+	<script>
+	// var span=document.getElementsByClassName('main')[0].innerHTML;
+	// a=span.length;
+	var p=document.getElementsByClassName('main');
+	var width1=document.getElementsByClassName('xian1')[0];
+	var width2=document.getElementsByClassName('xian2')[0];
+	var w1=0;w2=0;w3=0;w4=0;w5=0;w6=0;w7=0;w8=0;w9=0;w10=0;w11=0;w12=0;
+	var s1=0;s2=0;s3=0;s4=0;s5=0;s6=0;s7=0;s8=0;s9=0;s10=0;s11=0;s12=0;
+	setTimeout(function(){
+	t1=setInterval(function(){
+		w1+=16;s1++;
+		p[0].style.width=w1+'px';
+		if(s1==p[0].innerHTML.length){
+			clearInterval(t1);
+		setTimeout(function(){
+		t2=setInterval(function(){
+			w2+=16;s2++;
+			p[1].style.width=w2+'px';
+			if(s2==p[1].innerHTML.length){
+				clearInterval(t2);
+		setTimeout(function(){
+		t3=setInterval(function(){
+			w3+=16;s3++;
+			p[2].style.width=w3+'px';
+			if(s3==p[2].innerHTML.length){
+				clearInterval(t3);
+		setTimeout(function(){
+		t4=setInterval(function(){
+			w4+=16;s4++;
+			p[3].style.width=w4+'px';
+			if(s4==p[3].innerHTML.length){
+				clearInterval(t4);
+		setTimeout(function(){
+		t5=setInterval(function(){
+			w5+=16;s5++;
+			p[4].style.width=w5+'px';
+			if(s5==p[4].innerHTML.length){
+				clearInterval(t5);
+		setTimeout(function(){
+		t6=setInterval(function(){
+			w6+=16;s6++;
+			p[5].style.width=w6+'px';
+			if(s6==p[5].innerHTML.length){
+				clearInterval(t6);
+		setTimeout(function(){
+		t7=setInterval(function(){
+			w7+=16;s7++;
+			p[6].style.width=w7+'px';
+			if(s7==p[6].innerHTML.length){
+				clearInterval(t7);
+		setTimeout(function(){
+		t8=setInterval(function(){
+			w8+=16;s8++;
+			p[7].style.width=w8+'px';
+			if(s8==p[7].innerHTML.length){
+				clearInterval(t8);
+		setTimeout(function(){
+		t9=setInterval(function(){
+			w9+=16;s9++;
+			p[8].style.width=w9+'px';
+			if(s9==p[8].innerHTML.length){
+				clearInterval(t9);
+		setTimeout(function(){
+		t10=setInterval(function(){
+			w10+=16;s10++;
+			p[9].style.width=w10+'px';
+			if(s10==p[9].innerHTML.length){
+				clearInterval(t10);
+		setTimeout(function(){
+		t11=setInterval(function(){
+			w11+=16;s11++;
+			p[10].style.width=w11+'px';
+			if(s11==p[10].innerHTML.length){
+				clearInterval(t11);
+		setTimeout(function(){
+		t12=setInterval(function(){
+			w12+=16;s12++;
+			p[11].style.width=w12+'px';
+			if(s12==p[11].innerHTML.length){
+				clearInterval(t12);
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+			}
+		},400)
+		},1000)
+		}
+	},400)
+	},1000)
+	</script>
+</body>
+</html>
